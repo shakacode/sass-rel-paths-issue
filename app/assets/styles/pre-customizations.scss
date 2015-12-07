@@ -1,0 +1,13 @@
+$font-size-base: 15px;
+
+$font-family-sans-serif: 'OpenSans-Light';
+
+// Define a path to custom fonts
+$fonts-url-path: '../fonts';
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('#{$fonts-url-path}/OpenSans-Light.ttf') format('truetype');
+}
+
+
