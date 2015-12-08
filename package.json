@@ -9,7 +9,9 @@
     "start": "node server.js",
     "build:prepare": "if [ -d build ]; then rm build/* || true; else mkdir build; fi",
     "build:rel": "npm run build:prepare && BUILD_PATH_REL=true webpack --config webpack.build.config.js",
-    "build:abs": "npm run build:prepare && webpack --config webpack.build.config.js"
+    "build:abs": "npm run build:prepare && webpack --config webpack.build.config.js",
+    "build:bs:rel": "BS_STYLES=true npm run build:rel",
+    "build:bs:abs": "BS_STYLES=true npm run build:abs"
   },
   "dependencies": {},
   "devDependencies": {

@@ -1,7 +1,18 @@
 # sass-rel-paths-issue
 
 ```bash
-npm start         # works!
-npm run build:abs # works!
-npm run build:rel # oops...
+# hot reloading
+npm start                             # works!
+
+# absolute path
+npm run build:abs                     # works!
+
+# relative path
+npm run build:rel                     # works!
+
+# bootstrap-loader & absolute path
+npm run build:bs:abs                  # works!
+
+# bootstrap-loader & relative path
+npm run build:bs:rel                  # oops...
 ```
