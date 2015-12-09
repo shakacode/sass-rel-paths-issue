@@ -21,7 +21,7 @@
     "extract-text-webpack-plugin": "^0.9.1",
     "file-loader": "^0.8.5",
     "node-sass": "^3.4.2",
-    "resolve-url-loader": "^1.4.2",
+    "resolve-url-loader": "bholloway/resolve-url-loader#bugfix/relative-output-path",
     "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
